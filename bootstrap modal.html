@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap navbar</title>
+    <!-- load bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- load jquery and bootstrap js -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h5>Bootstrap Modal</h5>
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#largemodal">
+        Large modal
+      </button>
+      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#mediummodal">
+        Medium Modal
+      </button>
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#smallmodal">
+        Small Modal
+      </button>
+    </div>
+    <!--modal large-->
+    <div class="modal fade" id="largemodal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header bg-success text-white">
+            <h4>Large Modal</h4>
+            <span class="close" data-dismiss="modal">&times;</span>
+          </div>
+          <div class="modal-body">
+            "lakukanlah apa yang memang sudah ditakdirkan tuhan untukmu ingat selalu bahwa kau disini hanya karena tuhanmu
+            dan untuk kesekian kalinya ingatlah bahwa tujuan utama hidupmu adalah patuh kepada tuhanmu"
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-sm btn-success">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal medium -->
+    <div class="modal fade" id="mediummodal">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="modal-header bg-info text-white">
+            <h4>medium modal</h4>
+            <span class="close" data-dismiss="modal">&times;</span>
+          </div>
+          <div class="modal-body">
+            "cinta memang datang begitu saja tentu saja tanpa cinta hidup tak akan berwarna
+            cintai orang yang tepat jangan sampai beujung pada kata COBA LAGI"
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-sm btn-info">save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal small -->
+    <div class="modal fade" id="smallmodal">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header bg-danger text-white">
+            <h4>small modal</h4>
+            <span class="close" data-dismiss="modal">&times;</span>
+          </div>
+          <div class="modal-body">
+            "kau hidup dengan siapapun atau kapanpun kau bertahan semua itu tidak ada yang tahu
+            namun yang perlu kau ketahui yakni selalu bersyukur kapanpun itu"
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-sm btn-danger">save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
